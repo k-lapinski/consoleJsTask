@@ -108,7 +108,7 @@ class Sklep extends ListaTowarow {
        
     }
 
-    dodajProdukt(nazwa, model, cena, zuzycieEnergii) {
+    dodajProduktAutomatId(nazwa, model, cena, zuzycieEnergii) {
         this.lista.push(Math.floor(Math.random() * 1000), nazwa, model, cena, zuzycieEnergii);
     }
 
